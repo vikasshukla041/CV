@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page-container {
+    width: 80%;
+    margin: auto;
+}
+.page-container .profile {
+    box-shadow: 3px 3px 4px 1px #ccc;
+}
+.profile .profile-pic {
+    position: relative;
+}
+.profile-pic-name {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.profile-pic-name p {
+    font-size: 22px;
+}
+.self-description {
+    padding-left: 20px;
+    color: grey;
+}
+i {
+    color: cadetblue;
+}
+.skills {
+    color: grey;
+    
+}
+.work-experience .work-heading {
+    font-size: 32px;
+}
+.extra {
+    box-shadow: 2px 3px 4px 5px #ccc;
+}
+ .work {
+    color: grey;
+    font-size: 18px;
+}
+.work-experience .current {
+    background: cadetblue;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+} 
+.work-experience .date {
+    color: cadetblue;
+}
+.work-experience .education .education-first {
+    margin: 0;
+}
+.work-experience .extra {
+    padding: 0px 20px;
+}
+.work-experience .education {
+    padding: 0px 20px;
+    border: 1px solid #ccc;
+    border-bottom-style: none;
+    box-shadow: 2px 5px 5px 3px #ccc;
+}
+.footer {
+    background: cadetblue;
+    text-align: center;
+    color: white;
+    padding: 20px 10px;
+}
+.footer i {
+    color: white;
+}
